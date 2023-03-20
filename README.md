@@ -1,1 +1,7 @@
-# Function-KPKdanFPB
+Program ini memiliki 3 fungsi dan loop while yang akan menampilkan menu dan memungkinkan pengguna untuk memilih operasi yang ingin dijalankan.
+
+Fungsi pertama hitung_fpb(a, b) digunakan untuk menghitung FPB dari dua bilangan a dan b. FPB adalah bilangan bulat terbesar yang dapat membagi habis kedua bilangan. Fungsi tersebut menggunakan algoritma Euclidean untuk menghitung FPB dari dua bilangan. Jika bilangan b sama dengan nol, maka nilai a akan dikembalikan. Jika tidak, fungsi akan memanggil dirinya sendiri dengan parameter b dan a % b untuk memperoleh nilai FPB.
+
+Fungsi kedua hitung_kpk(a, b) digunakan untuk menghitung KPK dari dua bilangan a dan b. KPK adalah bilangan bulat terkecil yang dapat dibagi habis oleh kedua bilangan. Fungsi ini menggunakan loop while untuk mengiterasi melalui bilangan bulat positif mulai dari nilai maksimum antara a dan b. Jika kpk dapat dibagi habis oleh kedua bilangan, fungsi akan mengembalikan nilai kpk. Jika tidak, fungsi akan terus meningkatkan nilai kpk sampai mendapatkan KPK.
+
+Loop while akan terus berjalan sampai pengguna memilih opsi keluar (pilihan 3). Loop while menampilkan menu dan meminta pengguna untuk memasukkan pilihan mereka menggunakan fungsi input(). Program kemudian memeriksa pilihan pengguna dan mengeksekusi fungsi yang sesuai untuk menghitung FPB atau KPK dari dua bilangan yang dimasukkan. Jika pilihan pengguna tidak valid, program akan mencetak pesan kesalahan dan menampilkan menu kembali. Jika pengguna memilih opsi keluar, program akan mencetak pesan terima kasih dan keluar dari loop while.
